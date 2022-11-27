@@ -5,7 +5,7 @@ namespace PartsUnlimited.Models
 {
     public class CartItem : ILineItem
     {
-        // Minun toka muutos
+        // Minun toka muutosta lisää vaan
         [Key]
         public int CartItemId { get; set; }
 
